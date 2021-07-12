@@ -21,9 +21,44 @@ h1, h2, h3, h4 {
   width: 100%; }
 
 .background--one {
-  background-size: contain; }
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+  margin: 0 auto; }
+  .background--one .block-section--one {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .background--one .block-section--one .logo {
+      margin-top: 20px; }
 
 .background--two {
-  background-size: contain; }
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+  margin: 0 auto; }
+  .background--two .block-section--two {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
+    .background--two .block-section--two .text-block--two {
+      text-align: justify; }
+  .background--two .footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto; }
+    .background--two .footer img {
+      margin-left: 20px; }
 
 /*# sourceMappingURL=style.css.map */
